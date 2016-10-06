@@ -1,4 +1,37 @@
+$c-nav: #2b3e51;
+$c-white: #ffffff;
+
 $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'font-awesome/scss/font-awesome';
 @import 'box-sizing';
 @import 'reset';
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  background: $c-nav;
+
+  h1 {
+    margin: 0;
+  }
+
+  &__item {
+    color: $c-white;
+    font-size: 0.8rem;
+
+    &--name {
+      font-weight: bold;
+    }
+  }
+
+  &__link {
+    font-weight: normal;
+
+    &--tag {
+      margin-left: 0.5rem;
+      color: $c-white;
+      text-decoration: none;
+    }
+  }
+}
