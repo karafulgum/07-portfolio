@@ -1,0 +1,19 @@
+.hero {
+  padding: 3.5rem;
+  background: $c-hero;
+  text-transform: uppercase;
+
+  &__headline {
+    display: flex;
+    justify-content: center;
+    color: $c-black;
+    font-weight: bold;
+  }
+
+  &__byline {
+    display: flex;
+    justify-content: center;
+    color: $c-white;
+    text-align: center;
+  }
+}
