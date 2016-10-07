@@ -39,12 +39,14 @@
 }
 @media (max-width: 768px) {
   .row {
-    &--3-4 {
-      flex-basis: calc(50% - #{$gutter} - #{$gutter});
-    }
+    &__col {
+      &--3-4 {
+        flex-basis: calc(50% - #{$gutter} - #{$gutter});
+      }
 
-    &--1-4 {
-      flex-basis: calc(50% - #{$gutter} - #{$gutter});
+      &--1-4 {
+        flex-basis: calc(50% - #{$gutter} - #{$gutter});
+      }
     }
   }
 }
