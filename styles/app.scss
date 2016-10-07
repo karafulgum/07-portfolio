@@ -9,50 +9,7 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'font-awesome/scss/font-awesome';
 @import 'box-sizing';
 @import 'reset';
+@import 'layout';
 @import 'components/nav-bar';
 @import 'components/hero';
-
-.footer {
-  display: flex;
-  position: relative;
-  bottom: 0;
-  align-items: center;
-  justify-content: center;
-  min-width: 20rem;
-  padding: 1rem;
-  background: $c-footer;
-
-  .fa {
-    margin: 1em;
-  }
-
-  .fa-twitter {
-    color: $c-icon;
-  }
-
-  .fa-facebook {
-    color: $c-icon;
-  }
-  .fa-github {
-    color: $c-icon;
-  }
-  .fa-linkedin {
-    color: $c-icon;
-  }
-
-  img {
-    margin: 1em;
-    height: 1.5rem;
-  }
-}
-
-.full-page {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-
-  &__content {
-    flex-grow: 1;
-    background: pink;
-  }
-}
+@import 'components/footer';
