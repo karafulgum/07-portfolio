@@ -18,15 +18,13 @@
   }
 }
 
-.container {
-  display: block;
-  width: 100%;
-  min-width: 10rem;
-}
-
 .grid {
   display: flex;
   flex-wrap: wrap;
   max-width: $content-width;
   margin: auto;
+
+  @media (max-width: 460px) {
+    flex-direction: column;
+  }
 }
