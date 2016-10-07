@@ -39,12 +39,13 @@
 }
 
 .moon {
-  display: none;
+  filter: none;
 
   &:hover {
-    display: block;
+    filter: grayscale(100%);
   }
 }
+
 .frame {
   position: relative;
 
@@ -53,6 +54,7 @@
     position: absolute;
     top: 0;
     left: 2%;
+    color: $c-white;
   }
 
   &__description {
@@ -60,11 +62,10 @@
     position: absolute;
     top: 10%;
     left: 2%;
+    color: $c-white;
   }
 
   &:hover {
-
-
     .frame__title {
       display: block;
     }
@@ -73,10 +74,10 @@
       display: block;
     }
 
-    &::before {
-      content: none;
-    }
-   }
+    // &::before {
+    //   content: none;
+    // }
+  }
 }
 
 .image {
@@ -85,7 +86,6 @@
   height: 15rem;
   object-fit: cover;
 }
-
 @media (max-width: 768px) {
   .row {
     &__col {
