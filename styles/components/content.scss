@@ -31,3 +31,15 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .row {
+    &--3-4 {
+      flex-basis: calc(100% / 2 - #{$gutter} - #{$gutter});
+    }
+
+    &--1-4 {
+      flex-basis: calc(100% / 2 - #{$gutter} - #{$gutter});
+    }
+  }
+}
