@@ -3,6 +3,10 @@
   background: $c-hero;
   text-transform: uppercase;
 
+  @media (max-width: 768px) {
+    padding: 3.5rem 1rem;
+  }
+
   &__headline {
     display: flex;
     justify-content: center;
