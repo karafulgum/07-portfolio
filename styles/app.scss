@@ -4,6 +4,9 @@ $c-hero: #227fbb;
 $c-black: #000305;
 $c-footer: #222;
 $c-icon: #eee;
+$gutter: 1rem;
+$content-width: 65rem;
+$col-min-width: 10rem;
 
 $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'font-awesome/scss/font-awesome';
@@ -13,3 +16,4 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'components/nav-bar';
 @import 'components/hero';
 @import 'components/footer';
+@import 'components/content';

@@ -4,7 +4,6 @@
   bottom: 0;
   align-items: center;
   justify-content: center;
-  min-width: 20rem;
   padding: 1rem;
   background: $c-footer;
 
@@ -19,15 +18,17 @@
   .fa-facebook {
     color: $c-icon;
   }
+
   .fa-github {
     color: $c-icon;
   }
+
   .fa-linkedin {
     color: $c-icon;
   }
 
   img {
-    margin: 1em;
     height: 1.5rem;
+    margin: 1em;
   }
 }

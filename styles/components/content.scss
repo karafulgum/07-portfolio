@@ -1,0 +1,33 @@
+.header {
+  font-weight: bold;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: -$gutter;
+
+  &:nth-of-type(2) {
+    flex-direction: row-reverse;
+  }
+
+  &__col {
+    flex-grow: 1;
+    min-width: $col-min-width;
+    margin: $gutter;
+
+    &--3-4 {
+      flex-basis: calc(75% - #{$gutter} - #{$gutter});
+
+      p:first-of-type {
+        font-weight: bold;
+      }
+    }
+
+    &--1-4 {
+      flex-basis: calc(25% - #{$gutter} - #{$gutter});
+    }
+  }
+}

@@ -5,6 +5,11 @@
 
   &__content {
     flex-grow: 1;
-    // background: pink;
+    padding: 2rem 0;
+
+    &--container {
+      max-width: $content-width;
+      margin: 0 auto;
+    }
   }
 }
