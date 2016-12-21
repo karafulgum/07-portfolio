@@ -1,0 +1,23 @@
+.hero {
+  padding: 3.5rem;
+  background: $c-hero;
+  text-transform: uppercase;
+
+  @media (max-width: 768px) {
+    padding: 3.5rem 1rem;
+  }
+
+  &__headline {
+    display: flex;
+    justify-content: center;
+    color: $c-black;
+    font-weight: bold;
+  }
+
+  &__byline {
+    display: flex;
+    justify-content: center;
+    color: $c-white;
+    text-align: center;
+  }
+}

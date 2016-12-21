@@ -1,0 +1,30 @@
+.full-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  &__content {
+    flex-grow: 1;
+    padding: 2rem 0;
+
+    @media (max-width: 768px) {
+      padding: 1rem;
+    }
+
+    &--container {
+      max-width: $content-width;
+      margin: 0 auto;
+    }
+  }
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: $content-width;
+  margin: auto;
+
+  @media (max-width: 460px) {
+    flex-direction: column;
+  }
+}
